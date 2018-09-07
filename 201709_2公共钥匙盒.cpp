@@ -5,63 +5,7 @@ using namespace std;
 
 
 int N,K,key[1024];
-////return key
-//void returnKey(int keys[],vector<int>& numberOfKey,int sizeOfKeys){
-//	if(numberOfKey.size()!=0){
-//		sort(numberOfKey.begin(),numberOfKey.end());
-//	int a=0;
-//	for(int i=0;i<sizeOfKeys;i++){
-//		if(keys[i]==0){
-//			keys[i] = numberOfKey[a];
-//			a++;
-//			if(a==numberOfKey.size())break;
-//		}
-//		
-//	}
-//	}
-//	
-//}
-//
-//void getKey(int keys[],vector<int>& numberOfKey,int sizeOfKeys){
-//	if(numberOfKey.size()!=0){
-//		int a=0;
-//	//cout<<numberOfKey[0]<<endl;
-//	for(int i=0;i<sizeOfKeys;i++){
-//		//cout<<1<<endl;
-//		if(keys[i]==numberOfKey[a]){
-//			keys[i]=0;
-//			a++;
-//			
-//			if(a==numberOfKey.size())break;
-//		}
-//	}
-//	}
-//	
-//	
-//}
-//
-////return the keys at the specified time
-//void setKeys(int keys[],int w[],int s[],int c[],int times,int sizeOfKeys,int sizeOfW){
-//	vector<int> keysReturned;
-//	for(int i=0;i<sizeOfW;i++){
-//		if(s[i]+c[i]==times){
-//			keysReturned.push_back(w[i]);
-//			//cout<<"在时间"<<times<<"还钥匙"<<w[i]<<endl;
-//		}
-//	}
-//	returnKey(keys,keysReturned,sizeOfKeys);
-//}
-////get keys needed at a certain moment
-//void getKeys(int keys[],int w[],int s[],int c[],int times,int sizeOfKeys,int sizeOfW){
-//	vector<int> keysNeeds;
-//	for(int i=0;i<sizeOfW;i++){
-//		if(s[i]==times){
-//			keysNeeds.push_back(w[i]);
-//			//cout<<"在时间"<<times<<"拿钥匙"<<w[i]<<endl;
-//		}
-//	}
-//	getKey(keys,keysNeeds,sizeOfKeys);
-//} 
+
 
 
 struct Teacher{
